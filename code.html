@@ -70,8 +70,8 @@
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col-md-9">
                     <pre class="line-numbers">
-                        <code class="language-javascript">                             
-                            /**
+                        <code class="language-javascript">                         
+                          /**
                             * Get the values from the page
                             * This is the controller function
                             */
@@ -128,11 +128,11 @@
 
                             values.map(
                                 item =>{            
-                                    item%15===0?table.innerHTML += `<tr><td> Fizz Buzz </td></tr>`
+                                    item%15===0?table.innerHTML += `<tr><td class="fizzBuzz"> Fizz Buzz </td></tr>`
                                     :
-                                    item%3===0?table.innerHTML += `<tr><td> Fizz </td></tr>`
+                                    item%3===0?table.innerHTML += `<tr><td class="fizz"> Fizz </td></tr>`
 
-                                    :item%5===0?table.innerHTML += `<tr><td> Buzz </td></tr>`
+                                    :item%5===0?table.innerHTML += `<tr><td class="buzz"> Buzz </td></tr>`
                                     :
                                     table.innerHTML += `<tr><td>${item}</td></tr>`
 

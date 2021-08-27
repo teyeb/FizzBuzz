@@ -76,3 +76,15 @@ white-space: pre-wrap;
 word-break: break-all;
 word-wrap: break-word;
 }
+
+.fizzBuzz{
+    color: darkorange;
+}
+
+.fizz{
+    color: blue;
+}
+
+.buzz{
+    color: green;
+}

@@ -56,11 +56,11 @@ function displayNumbers(values){
 
    values.map(
        item =>{            
-           item%15===0?table.innerHTML += `<tr><td> Fizz Buzz </td></tr>`
+           item%15===0?table.innerHTML += `<tr><td class="fizzBuzz"> Fizz Buzz </td></tr>`
            :
-            item%3===0?table.innerHTML += `<tr><td> Fizz </td></tr>`
+            item%3===0?table.innerHTML += `<tr><td class="fizz"> Fizz </td></tr>`
 
-           :item%5===0?table.innerHTML += `<tr><td> Buzz </td></tr>`
+           :item%5===0?table.innerHTML += `<tr><td class="buzz"> Buzz </td></tr>`
            :
            table.innerHTML += `<tr><td>${item}</td></tr>`
 
