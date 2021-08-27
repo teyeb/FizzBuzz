@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>App Name: JS miniSite Template: Created by Dr. John Teye Brown </title>
+    <title>Fizz Buzz: JS mini project: Created by Dr. John Teye Brown </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -33,7 +33,7 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="img/JOHNlogoupdated-min.png" class="d-line-block align-text-middle" 
-            width="30" height="24" alt="logo" /> App Name</a>
+            width="30" height="24" alt="logo" /> Fizz Buzz</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
                     <a class="nav-link active" aria-current="page" href="code.html">The Code</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="">Git Repo</a>
+                    <a class="nav-link" target="_blank" href="https://github.com/teyeb/FizzBuzz">Git Repo</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" target="_blank" href="">About</a>
@@ -67,21 +67,107 @@
   <main class="flex-shrink-0">
       <div class="container py-5 px-5 mt-5">
           <h1 class="border-3 border-bottom border-dark">The Code</h1>
-            <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col-lg-8">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col-md-9">
                     <pre class="line-numbers">
-                        <code class="language-javascript">
-                            //Call Hello World
-                                function helloWOrld(){
-                                    alert("Hello World!");
+                        <code class="language-javascript">                             
+                            /**
+                            * Get the values from the page
+                            * This is the controller function
+                            */
+                            function getValues(){
+
+                            //get values from the page
+                            let startValue = document.getElementById("startValueInput").value;
+                            let endValue = document.getElementById("endValueInput").value;
+
+                            //alert(startValue+" : "+endValue)
+                            
+                            try{
+                                startValue = parseInt(startValue);
+                                endValue = parseInt(endValue);
+
+                                if(!Number.isInteger(startValue)|| !Number.isInteger(endValue)){
+                                    return document.getElementById("results").innerHTML = 
+                                    `<tr><strong class="alarm">Only integers are permissible<br><br></strong></tr>`;
                                 }
+                                // call generate numbers
+                                let values = generateNumbers(startValue,endValue); 
+
+                                displayNumbers(values);
+                            }
+                            catch(error){
+                                document.getElementById("results").innerHTML = 
+                                `<tr><strong>Only integers are permissible<br><br>${error.message}</strong></tr>`;
+                            }
+                            
+                            }
+
+
+                            /**
+                            * Generate Numbers from the start to end values
+                            * This is the logic/model function
+                            */
+                            function generateNumbers(start, end){
+                            let values = [];
+
+                            for(let i=start; i<=end;i++){
+                                values.push(i);
+                            } 
+                            return values;
+                            }
+
+                            /**
+                            * Displays even numbers as bold
+                            * This is the view function
+                            */
+                            function displayNumbers(values){
+
+                            let table = document.getElementById("results"); 
+                                table.innerHTML = "";
+
+                            values.map(
+                                item =>{            
+                                    item%15===0?table.innerHTML += `<tr><td> Fizz Buzz </td></tr>`
+                                    :
+                                    item%3===0?table.innerHTML += `<tr><td> Fizz </td></tr>`
+
+                                    :item%5===0?table.innerHTML += `<tr><td> Buzz </td></tr>`
+                                    :
+                                    table.innerHTML += `<tr><td>${item}</td></tr>`
+
+                                    return
+                                }
+                            )
+                            }
                         </code>
                     </pre>
                 </div>
-                <div class="col-lg-4">
-                        <p>The code is structured in one function.</p>
-                        <h5>Hello World</h5>
-                        <p>Hello World is a function that displays an alert with a message of "hello world".</p>
+                <div class="col-md-3">
+                    <p>The code is structured in three functions: getValues(), generateNumbers() and displayNumbers()</p>
+                    <h5>getValues()</h5>
+                    <p>This function is the controller, and has no input parameters. It exracts the user input from 
+                        the UI resulting in the start and end values. It verifies that the two numbers are valid integers. 
+                        If the numbers are not valid, an error message is displayed on the page; else, the generateNumbers
+                        function is called 
+                    </p>
+
+                    <br>
+
+                    <h5>generateNumbers(start, end)</h5>
+                    <p>This function is the logic/model function, and has two integer input parameters: start value and end value. 
+                       The function returns integer values from start to end in increments of 1.
+                    </p>
+
+
+                    <br>
+
+                    <h5>displayNumbers(numbers)</h5>
+                    <p>This function is a view function, and has an integer array input parameter: numbers[].
+                        The function displys the numbers on a screen using an array map function, while ensuring that
+                        all numbers divisible by 15 are displayed ad "Fizz Buzz", else numbers divisible by 3 are displayed
+                        as "Fizz", else numbers divisible by 5, are displayed as "Buzz", else numbers are displayed as they are.
+                    </p>
                 </div>
             </div>
       </div>
