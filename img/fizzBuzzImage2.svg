@@ -24,7 +24,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.74118967"
-     inkscape:cx="433.76211"
+     inkscape:cx="433.76212"
      inkscape:cy="669.86902"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -90,22 +90,22 @@
     <ellipse
        style="fill:#87decd;stroke:#000000;stroke-width:0.198459;stroke-opacity:0.699301"
        id="path53027-7-1-36-4"
-       cx="20.438335"
-       cy="252.41228"
+       cx="60.419106"
+       cy="207.07693"
        rx="5.5065513"
        ry="6.0053926" />
     <ellipse
        style="fill:#87decd;stroke:#000000;stroke-width:0.198459;stroke-opacity:0.699301"
        id="path53027-7-1-36-1"
-       cx="81.940041"
-       cy="253.98734"
+       cx="93.720093"
+       cy="207.58109"
        rx="5.5065513"
        ry="6.0053926" />
     <ellipse
        style="fill:#87decd;stroke:#000000;stroke-width:0.198459;stroke-opacity:0.699301"
        id="path53027-7-1-36-7"
-       cx="144.77151"
-       cy="252.41228"
+       cx="127.6369"
+       cy="200.65146"
        rx="5.5065513"
        ry="6.0053926" />
     <ellipse
@@ -335,15 +335,15 @@
     <ellipse
        style="fill:#5599ff;stroke:#000000;stroke-width:0.239856;stroke-opacity:0.699301"
        id="path53533-35-6"
-       cx="150.42302"
-       cy="231.93645"
+       cx="151.13696"
+       cy="255.13957"
        rx="2.3270915"
        ry="2.6776092" />
     <ellipse
        style="fill:#5599ff;stroke:#000000;stroke-width:0.239856;stroke-opacity:0.699301"
        id="path53533-35-9"
-       cx="22.765427"
-       cy="220.911"
+       cx="27.406052"
+       cy="241.61533"
        rx="2.3270915"
        ry="2.6776092" />
     <ellipse
@@ -468,8 +468,8 @@
     <ellipse
        style="opacity:0.34;fill:#dbe3de;stroke:#000000;stroke-width:0.113321;stroke-opacity:0.699301"
        id="path53809-7-3-4-1"
-       cx="41.049717"
-       cy="254.30235"
+       cx="27.127842"
+       cy="195.04514"
        rx="6.5476074"
        ry="6.3618441" />
     <ellipse
@@ -515,12 +515,12 @@
        rx="6.5476074"
        ry="6.3618441" />
     <ellipse
-       style="opacity:0.34;fill:#dbe3de;stroke:#000000;stroke-width:0.155258;stroke-opacity:0.699301"
+       style="opacity:0.34;fill:#dbe3de;stroke:#000000;stroke-width:0.0890496;stroke-opacity:0.699301"
        id="path53809-7-3-35-7"
-       cx="63.489525"
-       cy="225.47868"
-       rx="9.6842623"
-       ry="8.0740032" />
+       cx="64.73893"
+       cy="247.96786"
+       rx="4.8982558"
+       ry="5.251338" />
     <ellipse
        style="opacity:0.34;fill:#dbe3de;stroke:#000000;stroke-width:0.313127;stroke-opacity:0.699301"
        id="path53809-7-3-35-7-2"
@@ -531,42 +531,42 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14.3849px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.359625"
-       x="16.725292"
-       y="215.84866"
+       x="20.277483"
+       y="235.54305"
        id="text58011"
        transform="scale(0.90443914,1.1056576)"><tspan
          sodipodi:role="line"
          id="tspan58009"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.688px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.359625"
-         x="16.725292"
-         y="215.84866"><tspan
+         x="20.277483"
+         y="235.54305"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.688px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#483737;stroke-width:0.359625"
            id="tspan62101">FIZZ</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.688px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;stroke-width:0.359625"
            id="tspan60545">BUZZ</tspan></tspan></text>
     <ellipse
-       style="opacity:0.34;fill:#dbe3de;stroke:#000000;stroke-width:0.113321;stroke-opacity:0.699301"
+       style="opacity:0.34;fill:#dbe3de;stroke:#000000;stroke-width:0.0804767;stroke-opacity:0.699301"
        id="path53809-7-3-35-2-4"
-       cx="109.20026"
-       cy="226.58122"
-       rx="6.5476074"
-       ry="6.3618441" />
+       cx="112.59149"
+       cy="247.28554"
+       rx="4.2437172"
+       ry="4.9503818" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.32321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ccff;fill-opacity:1;stroke:none;stroke-width:0.260099"
-       x="21.756676"
-       y="225.60378"
+       x="25.122349"
+       y="247.41182"
        id="text73715"
        transform="scale(0.95456098,1.047602)"><tspan
          sodipodi:role="line"
          id="tspan73713"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.32321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ccff;stroke-width:0.260099"
-         x="21.756676"
-         y="225.60378"></tspan><tspan
+         x="25.122349"
+         y="247.41182" /><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.32321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ccff;stroke-width:0.260099"
          id="tspan73717"
-         x="21.756676"
-         y="236.0078">WHEN IT COUTS YOU FIZZ BUZZ</tspan></text>
+         x="25.122349"
+         y="257.81583">WHEN IT COUNTS YOU FIZZ BUZZ</tspan></text>
   </g>
 </svg>
